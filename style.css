@@ -1,0 +1,38 @@
+body{
+  background-color: rgb(237, 199, 224);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container{
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  padding-right: 45px;
+}
+
+input{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px ;
+  border-radius: 8px;
+  border: 1px solid gray;
+}
+
+button{
+  border: none;
+  padding: 10px;
+  margin-top: 25px;
+  border-radius: 10px;
+  background-color: rgb(239, 183, 230);
+}
+
+
+button:hover{
+  background-color: rgb(246, 206, 228);
+}
